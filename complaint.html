@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint</title>
+</head>
+
+<body>
+    <center>
+        <h1>Apartement Complaint</h1>
+    </center>
+    <h2><a href="index.html">Home</a></h2>
+    <form action="/login" method="post">
+        <br>
+        <fieldset>
+            <legend>Complaint Details</legend>
+            <center>
+                <form action="/comp" method="post">
+                    <input type="date" placeholder="Date" id="date" name="date" values="" required=""> <br><br>
+                    <input type="number" placeholder="Block No." id="bno" name="bno" required=""> <br><br>
+                    <input type="number" placeholder="Door No." id="dno" name="dno" required=""><br><br>
+                    <select name="service" class="zxc" width="200px" height="40px">
+                    <option values="Construction">construction</option>
+                    <option values="Electrician">Electrician</option>
+                    <option values="Plumber">Plumber</option>
+                </select><br><br>
+                    <textarea id="textarea" type="textarea" placeholder="Complaint" name="complaint" required="" rows="10" cols="10"></textarea><br><br>
+
+                    <button type="submit" id="sumit">Submit</button>
+                </form>
+            </center>
+        </fieldset>
+</body>
+
+</html>
