@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="comp.css">
+</head>
+
+<body style="background-image:url(backfull.jpg);">
+    <img src="pb_pb.png" id="img" width="100px" height="100px">
+    <br>
+    <div id="wrap">
+        <br>
+        <h1> PEBBLEBROOKE APARTMENT</h1> <br>
+        <ul>
+            <li class=asd>
+                <p class="txt"> <a href="index.html">Home</a> </p>
+            </li>
+            <li class=asd>
+                <p class="txt"> <a href="signup.html">Sign up</a> </p>
+            </li>
+            <li class=asd id="sep">
+                <p class="txt"> <a href="#">Complaint Booking</a> </p>
+            </li>
+            <li class=asd>
+                <p class="txt"> <a href="cont.html">Contacts</a> </p>
+            </li>
+
+        </ul>
+    </div>
+
+    <div id="wrap2">
+        <table border="3" width="50%" height="350px" id="table1">
+
+            <tr id="row1">
+                <th width="100px">DATE</th>
+                <th width="70px">BLOCK NO.</th>
+                <th width="70px">DOOR NO.</th>
+                <th width="150px">SERVICE TYPE</th>
+                <th width="250px">COMPLAINTS</th>
+            </tr>
+            <tr>
+                <td class="col1"> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td class="col1">
+                </td>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+                <td>
+                </td>
+                <td>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col1"> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </table>
+
+        <div id="wrap5">
+            <div id="wrap51">
+                <br>
+                <form action="/comp" method="post">
+                    <input class="asd2" type="date" placeholder="Date" id="date" name="date" values="" required=""> <br><br>
+                    <input class="asd2" type="number" placeholder="Block No." id="bno" name="bno" required=""> <br><br>
+                    <input class="asd2" type="number" placeholder="Door No." id="dno" name="dno" required=""><br><br>
+                    <div id="drop" name="service">
+
+                        <select name="service" class="zxc" width="200px" height="40px">
+                    <option values="Construction">construction</option>
+                    <option values="Electrician">Electrician</option>
+                    <option values="Plumber">Plumber</option>
+                </select>
+
+                    </div>
+            </div>
+            <textarea id="textarea" type="textarea" placeholder="Complaint" name="complaint" required="" rows="7" cols="7"></textarea>
+        </div>
+        <button type="submit" id="sumit">Submit</button>
+        <br>
+        </form>
+    </div>
+</body>
+
+</html>
