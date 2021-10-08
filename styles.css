@@ -85,7 +85,7 @@ body {
 /* home-Content */
 
 .wholeSection {
-    margin-top: 7%;
+    margin-top: 3%;
     padding: 4% 2%;
     background-color: rgba(103, 207, 221, 0.308);
 }
@@ -416,4 +416,10 @@ td {
 .cont-bg {
     padding: 1% 1%;
     background-color: #0000006c;
+}
+
+.setdate-div {
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Scheherazade New';
 }
